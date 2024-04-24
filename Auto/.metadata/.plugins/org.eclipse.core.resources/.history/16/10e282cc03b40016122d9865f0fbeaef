@@ -1,0 +1,50 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+
+public class BaseJar {
+ public static void main(String args[]) throws InterruptedException
+ {
+	//System.setProperty("webdriver.chrome.driver", "D:/Auto/AutoInternalBug/Register/chromedriver.exe");
+		WebDriver driver=new FirefoxDriver();
+	/*	driver.get("https://toolcenter.yodlee.com/toolcenter/signin.do");
+		
+		driver.findElement(By.id("txtUsername")).sendKeys(username);
+		
+		driver.findElement(By.xpath("//*[@id='txtPassword']")).sendKeys(password);
+		
+		driver.findElement(By.xpath("//*[@id='nonFooter']/table[2]/tbody/tr[2]/td/form/table/tbody/tr[4]/td[2]/input[1]")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//*[@id='nonFooter']/table[2]/tbody/tr[2]/td[2]/table[3]/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/b/a")).click();
+	*/	Thread.sleep(100);
+		System.out.println("after click on bugzilla");
+		//driver.findElement(By.xpath("#account")).click();
+		
+		driver.get("https://www.banorte.com/wps/portal/ixe/Home/inicio/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOLdjQwtPIydDbz9XQPNDBydgwJdwzzdPCwDDIAKIoEKDHAARwNC-sP1o8BKnN0dPUzMfQwM_E3cjQwcLfy8TIJNLY0MPM2gCvBYUZAbYZDpqKgIAM9eOM0!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/");
+
+		Thread.sleep(5000);
+		driver.findElement(By.id("userid")).sendKeys("12344");
+
+		//driver.findElement(By.id("password")).sendKeys(password);
+
+		driver.findElement(By.xpath("//*[@id='btn_lgn_entrar']")).click();
+	
+		Thread.sleep(1000);
+		
+		System.out.println("after click on bugzilla login");
+		Thread.sleep(4000);
+		driver.findElement(By.cssSelector("#page > div > div.contentPanel > div.cms.header.MemberDashboard_header > div > div.dashboardTiles > div.customhtml.clean.place\3a TransactionHistory > a > h3")).click();
+		Thread.sleep(2000);
+		System.out.println("2^^^^^^^^^^^^^^^^^^^^^^^after account click in navigate to InvestmentTrans");
+		driver.findElement(By.id("TransactionHistory.Start Date")).sendKeys("31/05/2016");
+		Thread.sleep(1000);
+	     driver.findElement(By.xpath("//*[@id='page']/div/div[2]/div[3]/div[2]/div[2]/div[3]/div/div[5]/div/a")).click();
+	 	Thread.sleep(6000);
+		
+	}
+
+}
+

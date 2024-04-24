@@ -1,0 +1,75 @@
+
+s	java:S127†"XRefactor the code in order to not assign to this loop counter from within the loop body.(è¼ê”úÿÿÿÿ
+F
+java:S1066‡"/Merge this if statement with the enclosing one.(ëÀ€¹
+2
+java:S1643n"Use a StringBuilder instead.(€Þ´ã
+2
+java:S1643y"Use a StringBuilder instead.(¾ËÀ–
+0
+java:S1220""Move this file to a named package.
+Y
+java:S3518$"CMake sure this expression can't be zero before doing this division.(×Èß¯
+Q	java:S125"<This block of commented-out lines of code should be removed.(Þ€Î¼
+M
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(›°ß€
+N	java:S106."9Replace this use of System.out or System.err by a logger.(ø–µñ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(À•¶Ëüÿÿÿÿ
+Q	java:S1255"<This block of commented-out lines of code should be removed.(¥›Š¢
+Q	java:S125="<This block of commented-out lines of code should be removed.(Ð È”
+A
+java:S1905L"&Remove this unnecessary cast to "int".(¿´‰«ùÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(¼œž¦ýÿÿÿÿ
+S	java:S106S"9Replace this use of System.out or System.err by a logger.(Ä©‚šÿÿÿÿÿ
+E
+java:S1197U"*Move the array designators [] to the type.(¦ë’ùÿÿÿÿ
+B
+java:S1905Z"'Remove this unnecessary cast to "char".(íÂ“Œýÿÿÿÿ
+S	java:S106["9Replace this use of System.out or System.err by a logger.(³²ó¹ûÿÿÿÿ
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(¬íîìþÿÿÿÿ
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(ôÏÑÑ
+<
+java:S1905^"&Remove this unnecessary cast to "int".(ôÏÑÑ
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(ö‡‹àùÿÿÿÿ
+N	java:S106`"9Replace this use of System.out or System.err by a logger.(¸ýœ³
+<
+java:S1905`"&Remove this unnecessary cast to "int".(¸ýœ³
+<
+java:S1905b"&Remove this unnecessary cast to "int".(îç§Ñ
+N	java:S106c"9Replace this use of System.out or System.err by a logger.(˜àû¯
+A
+java:S1905k"&Remove this unnecessary cast to "int".(…‡‚Üùÿÿÿÿ
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(šë–¦
+N	java:S106q"9Replace this use of System.out or System.err by a logger.(ôÅÙ¨
+<
+java:S1905v"&Remove this unnecessary cast to "int".(Ïµ¤µ
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(šë–¦
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(ó€™×øÿÿÿÿ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(¹é‚Œþÿÿÿÿ
+9
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD
+K
+java:S1128"5Remove this unused import 'java.text.ParseException'.(ñ®ï•
+M
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
+K
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+E
+java:S1128"/Remove this unused import 'java.util.Calendar'.(ÿÛö´
+A
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü
+H
+java:S1128	"-Remove this unused import 'java.util.Locale'.(åð×±ûÿÿÿÿ
+I
+java:S1128
+".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã
+O
+java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;DulicateNumber.java&apos; to &apos;DuplicateNumber.java&apos;&#x0D;&#x0A;- Original project: &apos;CMD_Test&apos;&#x0D;&#x0A;- Original element: &apos;DulicateNumber.java&apos;&#x0D;&#x0A;- Renamed element: &apos;DuplicateNumber.java&apos;" description="Rename compilation unit &apos;DulicateNumber.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{DulicateNumber.java" name="DuplicateNumber.java" references="false" stamp="1520881305601" version="1.0"/>
+</session>

@@ -1,0 +1,87 @@
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+
+public class Local {
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver", "D:/Auto/InternalBugAutomation/Register/chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+	 driver.get("file:///C:/Users/stiwari/Desktop/dd.html");
+	 Thread.sleep(2000);
+	// driver.manage().window().maximize();
+	//driver.switchTo().defaultContent();
+	
+	Select dropdown = new Select(driver.findElement(By.className("xNavSelect")));
+	dropdown.selectByValue("A000000297");
+
+	WebElement option = dropdown.getFirstSelectedOption();
+	String text = option.getText();
+	System.out.println("valyue::"+text);
+      //driver.findElement(By.cssSelector("body > header > div > button.btn.btn--login.toggle-panel")).click();
+     // driver.switchTo().frame(driver.findElement(By.id("IframeresetId")));
+     // String winHandleBefore = driver.getWindowHandle();
+
+   // Perform the click operation that opens new window
+
+   // Switch to new window opened
+/*   for(String winHandle : driver.getWindowHandles()){
+       driver.switchTo().window(winHandle);
+   }
+
+   driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);*/
+   // Perform the actions on new window
+
+   // Close the new window, if that window no more required
+  // driver.close();
+ 	 System.out.println("switch frame");
+  //  driver.findElement(By.cssSelector("#userTypePopup-0")).click();
+    
+    //((JavascriptExecutor)driver).executeScript("document.getElementById('userTypePopup-0').click();");  
+    //driver.findElement(By.cssSelector("#userTypePopup-0")).click();
+     Thread.sleep(1000);
+     //((JavascriptExecutor)driver).executeScript("document.getElementById('inputPassword').removeAttribute('readonly');"); 
+ 
+        // ((JavascriptExecutor)driver).executeScript("document.getElementById('form_fakePassword').type = 'password'");  
+   //((JavascriptExecutor)driver).executeScript("document.querySelector('#key-task-wrapper > p:nth-child(2) > a').click();");  
+     
+	System.out.println("2^^^^^^after click on Mobileno Tab");
+
+
+
+
+
+
+    /*WebElement element=driver.findElement(By.linkText("Date of Birth"));
+    element=element.findElement(By.className("slds-input input"));
+   */
+	//driver.findElement(By.className("form-element")).findElement(By.tagName("input")).sendKeys("05/07/2017");
+  
+	
+  // driver.findElement(By.id("inputPassword")).click();
+     // driver.findElement(By.id("birthDateMonth")).sendKeys("01");
+    // driver.findElement(By.cssSelector("body > div:nth-child(13) > div > div > div > div > div > div > div > div > div.slds-small-show.page-bg.slds-p-top--xx-large.slds-p-bottom--xx-large > div.slds-grid > div:nth-child(2) > div > div.slds-grid.slds-grid--align-center.slds-p-top--large > div > div > button")).click();
+   Thread.sleep(1000);
+   //((JavascriptExecutor)driver).executeScript("document.querySelector('#header > div.container.container--middle > div > div:nth-child(2) > div > div.row > div > form > button').click();"); 
+    // driver.findElement(By.linkText("Me connecter")).click();
+    
+     Thread.sleep(2000);
+ // String accname="65+ Guaranteed Growth Bonds";
+  //System.out.println("2^^^printing ::::  "+driver.findElement(By.xpath("//a[text()='"+accname+"']")).getAttribute("href"));
+  
+	//int no_of_holdings=driver.findElements(By.xpath("//div[@class='data-table__cell data-table__cell--fixed__heading']")).size();
+	//System.out.println(no_of_holdings);
+  
+	}
+      
+      //
+	
+	
+	}

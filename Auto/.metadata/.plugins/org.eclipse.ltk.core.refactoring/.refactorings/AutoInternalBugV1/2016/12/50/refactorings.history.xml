@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;AutoInternalBug.java&apos; to &apos;BaseJar.java&apos;&#x0D;&#x0A;- Original project: &apos;AutoInternalBugV1&apos;&#x0D;&#x0A;- Original element: &apos;AutoInternalBug.java&apos;&#x0D;&#x0A;- Renamed element: &apos;BaseJar.java&apos;" description="Rename compilation unit &apos;AutoInternalBug.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{AutoInternalBug.java" name="BaseJar.java" references="false" stamp="1481032520557" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void execute() throws InterruptedException &apos; from &apos;InternalB.main()&apos; to &apos;InternalB&apos;&#x0D;&#x0A;- Original project: &apos;Day1&apos;&#x0D;&#x0A;- Method name: &apos;execute&apos;&#x0D;&#x0A;- Destination type: &apos;InternalB&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;execute&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{InternalB.java" name="execute" replace="false" selection="349 1771" stamp="1467376444373" version="1.0" visibility="1"/>
+</session>

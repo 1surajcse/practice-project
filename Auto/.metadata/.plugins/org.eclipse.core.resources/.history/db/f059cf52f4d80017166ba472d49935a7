@@ -1,0 +1,495 @@
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import com.sun.corba.se.impl.legacy.connection.USLPort;
+
+/**
+ * author:stiwari@yodlee.com** program to list links from a URL.
+ */
+public class QADetails {
+	public HashMap<String, String> qaMethod(String baseUrl) throws IOException {
+
+		String URLName="";
+		String loginD="Login URL";
+		String baseD="Base URL";
+		String contactD="Contact URL";
+		String registerD="Registered URL";
+		String Url="";
+		String favname="Favicon URL";
+		String forgetD="Forget Password URL";
+		String favURl="";
+		String displayName="Display Name";
+		String displayD="Display Name";
+		String logoUrl="";
+		String logoD="Logo URL";
+		String keywords="";
+		String keywordsD="Keywords";
+		String orgnameD="Orgnaization Name";
+		String orgName="";
+		//String baseUrl = "https://www.wellsfargo.com/";
+		print("Fetching %s...", baseUrl);
+
+		Document doc = Jsoup.connect(baseUrl).get();
+
+		try
+		{
+			//Element orgname=doc.select("div:contains(©)").get(0);
+			Element orgname=doc.select("*:containsOwn(©)").get(0);
+
+
+			orgName=orgname.text();
+			System.out.println("orgname::"+orgName);
+			if(orgName.equals("©"))
+			{
+				orgname=orgname.parent();
+
+				orgName=orgname.text();
+			}
+
+			orgName=orgName.replace("Copyright", "");
+			orgName = orgName.replaceAll("[0-9]","").trim();
+			
+			if(orgName.startsWith("-"))
+			{
+				orgName = orgName.replaceAll("-","").trim();
+			}
+			orgName=orgName.substring(orgName.indexOf("©")+1,orgName.length());
+
+			if(orgName.toLowerCase().contains("all rights reserved"))
+			{
+				orgName=orgName.substring(0,orgName.toLowerCase().lastIndexOf("all rights reserved"));
+			}
+			System.out.println(" checking::"+orgname.text());
+	
+
+		}
+		catch(Exception e)
+		{
+			orgName="Analyst Intervention required.";
+
+		}
+		displayName=doc.title().trim();
+		System.out.println("display Name::"+displayName);
+		if(displayName.toLowerCase().contains("home"))
+		{
+		displayName=displayName.toLowerCase().replace("home |", "");
+		displayName=displayName.toLowerCase().replace("home|", "");
+		displayName=displayName.toLowerCase().replace("| home", "");
+		displayName=displayName.toLowerCase().replace("home-", "");
+		displayName=displayName.toLowerCase().replace("-home", "");
+		}
+		
+		if(displayName.contains(","))
+		{
+			displayName=displayName.substring(0,displayName.indexOf(","));
+
+			if(displayName.toLowerCase().contains("credit union"))
+			{
+				displayName=displayName.replace("Credit Union", "CU");
+			}
+			if(displayName.length()>50)
+			{
+				displayName=displayName.substring(0,50);
+			}
+		}
+		System.out.println(" Actual display Name::"+displayName);
+		String key[]=displayName.split(",");
+		for(int i=0;i<key.length;i++)
+		{
+			keywords=keywords+key[i]+",";
+
+		}
+		System.out.println("Key length::"+key.length);
+		if(key.length<=1)
+		{
+
+
+			String key11[]=keywords.split("\\s+");
+			if(key.length<1)
+			{
+				System.out.println("Key 11::"+key11[0]);
+
+				keywords=keywords+key11[0];
+			}
+
+
+		}
+		else
+		{
+			keywords=keywords.substring(0, keywords.length()-1);
+		}
+
+		Elements links = doc.select("a[href]");
+		Elements meta = doc.select("meta[content]");
+		Elements media = doc.select("[src]");
+		Elements imports = doc.select("link[href]");
+		Elements buttons = doc.select("button[class]");
+
+
+		HashMap<String, String>map=new HashMap<>();
+		HashMap<String, String>map1=new HashMap<>();
+		print("\nMedia: (%d)", media.size());
+		for (Element src : media) {
+			if (src.tagName().equals("img"))
+				print(" * %s: <%s> %sx%s (%s)",
+						src.tagName(), src.attr("abs:src"), src.attr("width"), src.attr("height"),
+						trim(src.attr("alt"), 20));
+			else
+				print(" * %s: <%s>", src.tagName(), src.attr("abs:src"));
+
+			if(src.attr("abs:src").toLowerCase().contains("logo")&&!src.attr("abs:src").toLowerCase().contains("footer"))
+			{
+				logoUrl=src.attr("abs:src");
+			}
+		}
+
+		print("\nImports: (%d)", imports.size());
+		for (Element link : imports) {
+			print(" * %s <%s> (%s)", link.tagName(),link.attr("abs:href"), link.attr("rel"));
+
+			if(link.attr("abs:href").toLowerCase().contains("favicon")&&link.attr("abs:href").toLowerCase().contains(".ico"))
+			{
+				favname="Favicon URL";
+				favURl=link.attr("abs:href");
+			}
+		}
+		
+		print("\nmeta: (%d)", meta.size());
+		
+		for (Element meta1 : meta) {
+			print( meta1.tagName(),meta1.attr("content"),meta1.attr("name"));
+
+			if(meta1.attr("content").toLowerCase().contains("logo"))
+			{
+
+				logoUrl=meta1.attr("content");
+			}
+		}
+
+		print("\nLinks: (%d)", links.size());
+		for (Element link : links) {
+			print(" * a: <%s>  (%s)", link.attr("abs:href"), trim(link.text(), 35));
+
+			URLName=link.text();
+			Url=link.attr("abs:href");
+			System.out.println("urlName::"+URLName);
+			System.out.println("url::"+Url);
+
+			if(URLName.toLowerCase().contains("contact") &&Url.toLowerCase().contains("contact"))
+			{
+				map.put(contactD, Url);
+
+			}
+
+			if(URLName.toLowerCase().equals("login"))
+			{
+				System.out.println("inside login");
+				map.put(loginD, Url);
+			}
+			System.out.println("login Details::"+map.get(loginD));
+
+           if(map.get(loginD)==null)
+           {
+        	   if(Url.contains("?"))
+        	   {
+        		   Url=Url.substring(0,Url.indexOf("?"));
+        	   }
+			 if((Url.toLowerCase().contains("login")||URLName.toLowerCase().contains("login"))||URLName.toLowerCase().contains("sign in")||
+					 URLName.toLowerCase().contains("log in")||URLName.toLowerCase().contains("sign on"))
+			{
+				map.put(loginD, Url);
+				map1.put(URLName, Url);
+			}
+           }
+
+			if(URLName.toLowerCase().contains("forget password")||Url.toLowerCase().contains("forget password")||Url.toLowerCase().contains("forgot")||URLName.toLowerCase().contains("forgot"))
+			{
+				System.out.println("inside iff::::");
+				map.put(forgetD, Url);
+
+			}
+
+			if(URLName.toLowerCase().contains("sign up")||URLName.toLowerCase().equals("register")||URLName.toLowerCase().contains("registeration")||
+					Url.toLowerCase().contains("register"))
+			{
+				map.put(registerD, Url);
+				map1.put(URLName, Url);
+			}
+			if(map.get(registerD)==null&&(Url.toLowerCase().contains("enroll")||URLName.toLowerCase().contains("enroll")))
+			{
+				map.put(registerD, Url);
+			}
+
+			if(Url.toLowerCase().contains("favicon"))
+			{
+				map.put(favname, Url);
+
+			}
+
+		}
+
+
+
+
+
+
+
+		if(favURl!=""&&favURl!=null)
+		{
+			map.put(favname, favURl);
+		}
+
+
+		else
+		{
+			if(baseUrl.endsWith("/"))
+			{
+				favURl=baseUrl+"favicon.ico";
+			}
+			else{
+				favURl=baseUrl+"/favicon.ico";
+			}
+			if(verifyUrl(favURl))
+			{
+				System.out.println("dsfdsfds");
+				urlValidator(favURl);
+				map.put(favname, favURl);
+			}
+			else
+			{
+				map.put("Favicon URL", "Analyst intervention is required");
+			}
+		}
+		map.put(baseD, baseUrl);
+		map.put(displayD, displayName);
+		map.put(keywordsD, keywords);
+		map.put(orgnameD, orgName);
+		if(!logoUrl.isEmpty())
+		{
+			map.put(logoD, logoUrl);
+
+		}
+		else
+		{
+			map.put(logoD, "Analyst intervention is required");
+		}
+		System.out.println("dis details"+map.get(displayD));
+		System.out.println("Forget details"+map.get(forgetD));
+		System.out.println("login details"+map.get(loginD)+"*******"+"loginUrl::"+map.get(Url));
+		print("\nbuttons: (%d)", buttons.size());
+		for (Element link : buttons) {
+			print(" button* %s <%s> (%s)", link.tagName(),link.attr("class"), link.attr("rel"));
+
+			if(link.attr("abs:class").toLowerCase().contains("onlinebanking")||link.text().toLowerCase()=="online banking")
+			{
+				loginD="Login URL";
+				Url=link.attr("abs:href");
+				map.put(loginD, Url);
+			}
+				
+		}
+		
+		if((map.get(forgetD)==""||map.get(forgetD)==null)&&(map.get(loginD)!=""&&map.get(loginD)!=null))
+		{
+			System.out.println("inside"+map.get(forgetD));
+
+			Document doc1 = Jsoup.connect(map.get(loginD)).get();
+			Elements link1 = doc1.select("a[href]");
+
+
+			for (Element link : link1) {
+				print(" * a: <%s>  (%s)", link.attr("abs:href"), trim(link.text(), 35));
+
+				URLName=link.text();
+				Url=link.attr("abs:href");
+				removeQuestionmark(Url);
+				
+				System.out.println("Url name::"+URLName);
+				if(!Url.equals(""))
+				{
+					if(URLName.toLowerCase().contains("contact") &&Url.toLowerCase().contains("contact"))
+					{
+						map.put(contactD, Url);
+
+					}
+					if(URLName.toLowerCase().equals("login"))
+					{
+						map.put(loginD, Url);	
+					}
+					else if(Url.toLowerCase().contains("login")||URLName.toLowerCase().contains("login")||URLName.toLowerCase().contains("sign in")||URLName.toLowerCase().contains("log in"))
+					{
+						map.put(loginD, Url);
+						map1.put(URLName, Url);
+					}
+
+					if(URLName.toLowerCase().contains("forget password")||Url.toLowerCase().contains("forget password")||Url.toLowerCase().contains("forgot")||URLName.toLowerCase().contains("forgot"))
+					{
+						map.put(forgetD, Url);
+
+					}
+					if(URLName.toLowerCase().contains("sign up")||URLName.toLowerCase().equals("register")||URLName.toLowerCase().contains("registeration")||
+							Url.toLowerCase().contains("register")||Url.toLowerCase().contains("enroll")||URLName.toLowerCase().contains("enroll"))
+					{
+						map.put(registerD, Url);
+						map1.put(URLName, Url);
+					}
+
+				}
+			}
+		}
+
+		/*
+		Iterator it = map.entrySet().iterator();
+		System.out.println("\n\n*******--------------QA Analysis-------------*******");
+		while (it.hasNext()) {
+			Map.Entry pair = (Map.Entry)it.next();
+			System.out.println(pair.getKey() + " = " + pair.getValue());
+			it.remove(); // avoids a ConcurrentModificationException
+		}
+		 */
+
+		/*	
+		Iterator it1 = map1.entrySet().iterator();
+		System.out.println("\n\n--------------Its seems This site support more login and base url please check-------------\n\n");
+		while (it1.hasNext()) {
+			Map.Entry pair = (Map.Entry)it1.next();
+			System.out.println(pair.getKey() + " = " + pair.getValue());
+			it1.remove(); // avoids a ConcurrentModificationException
+
+		}*/
+		return map;
+
+	}
+
+	private static void print(String msg, Object... args) {
+		System.out.println(String.format(msg, args));
+	}
+
+	private static String trim(String s, int width) {
+		if (s.length() > width)
+			return s.substring(0, width-1) + ".";
+		else
+			return s;
+	}
+
+	/*	if(verifyUrl(loginURL))
+	{
+		try
+		{
+			URL myURL = new URL(loginURL);
+			HttpURLConnection myConnection = (HttpURLConnection) myURL.openConnection();
+			if (myConnection.getResponseCode()==URLStatus.HTTP_OK.getStatusCode()||myConnection.getResponseCode()==URLStatus.MOVED_PERMANENTLY.getStatusCode()) {
+				succeededURLS = succeededURLS + "\n" + loginURL + "****** Status message is : "
+						+ URLStatus.getStatusMessageForStatusCode(myConnection.getResponseCode());
+				System.out.println("succeeded URLS::"+succeededURLS);
+			} else {
+				failedURLS = failedURLS + "\n" + loginURL + "****** Status message is : "
+						+ URLStatus.getStatusMessageForStatusCode(myConnection.getResponseCode());
+				finalResults=finalResults+"Please check the login URL|";
+				System.out.println("failedURLS ::"+failedURLS);
+			}
+		} catch (Exception e) {
+			System.out.print("For url- " + loginURL+ "" +e.getMessage());
+			finalResults=finalResults+e.getMessage()+" "+"Exception in the Login URL|";
+		}
+	}
+	else {
+		incorrectURLS += "\n" + loginURL;
+		System.out.println("inside else::"+incorrectURLS);
+		finalResults=finalResults+"Incorrect Login URL|";
+	}*/
+
+
+
+
+	public static boolean verifyUrl(String url) {
+		String urlRegex = "^((((https?|ftps?|http?|gopher|telnet|nntp)://)|(mailto:|news:))" +   
+				"(%[0-9A-Fa-f]{2}|[-()_.!~*';/?:@&=+$, A-Za-z0-9])+)" + "([).!';/?:, ][[:blank:]])?$";
+		Pattern pattern = Pattern.compile(urlRegex);
+		Matcher m = pattern.matcher(url); 
+
+		if (m.matches()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	/*	public enum URLStatus {  
+
+		HTTP_OK(200, "OK", "SUCCESS"), NO_CONTENT(204, "No Content", "SUCCESS"),
+		MOVED_PERMANENTLY(301, "Moved Permanently", "SUCCESS"), NOT_MODIFIED(304, "Not modified", "SUCCESS"),
+		USE_PROXY(305, "Use Proxy", "SUCCESS"), INTERNAL_SERVER_ERROR(500, "Internal Server Error", "ERROR"),
+		NOT_FOUND(404, "Not Found", "ERROR");
+
+}
+	private int statusCode;
+	private String httpMessage;
+	private String result;     
+	public int getStatusCode() {
+		return statusCode;
+	}     
+	private URLStatus(int code, String message, String status) {
+		statusCode = code;
+		httpMessage = message;
+		result = status;
+	}
+	public static String getStatusMessageForStatusCode(int httpcode) {
+		String returnStatusMessage = "Status Not Defined";
+		for (URLStatus object : URLStatus.values()) {
+			if (object.statusCode == httpcode) {
+				returnStatusMessage = object.httpMessage;
+			}
+		}
+		return returnStatusMessage;
+	}
+
+	public static String getResultForStatusCode(int code) {
+		String returnResultMessage = "Result Not Defined";
+		for (URLStatus object : URLStatus.values()) {
+			if (object.statusCode == code) {
+				returnResultMessage = object.result;
+			}
+		}
+		return returnResultMessage;
+	}*/
+
+	public static boolean urlValidator(String url)
+	{
+		try {
+			new URL(url).toURI();
+			return true;
+		}
+		catch (URISyntaxException exception) {
+			return false;
+		}
+
+		catch (MalformedURLException exception) {
+			return false;
+		}
+	}
+	public String removeQuestionmark(String url)
+	{
+		 if(url.contains("?"))
+  	   {
+  		   url=url.substring(0,url.indexOf("?"));
+  		   return url;
+  	   }
+		 else
+		 {
+			 return url;
+		 }
+	}
+}

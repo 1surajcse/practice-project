@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/SimpleLogin/WEB-INF/lib/jsoup-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/SimpleLogin/WEB-INF/lib/selenium-server-standalone-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

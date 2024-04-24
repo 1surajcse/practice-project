@@ -1,0 +1,20 @@
+
+]
+java:S1220""Move this file to a named package.8÷ÿêÔç1J$50e9a330-497c-448c-b5e3-0ba6cfce0139
+ƒ
+java:S1854G";Remove this useless assignment to local variable "result2".(ô÷…ÿÿÿÿÿ8š€ëÔç1J$ecddf5f6-31e3-450f-bec6-709441df863d
+m	java:S106"+Replace this use of System.out by a logger.(ó²©±8¦€ëÔç1J$20684731-fc14-4497-862c-4ac0b7945122
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(˜ú–ìşÿÿÿÿ8ª€ëÔç1J$5929ad7a-30d3-4b45-bbf8-99fee70c3336
+~	java:S125"<This block of commented-out lines of code should be removed.(æÔéğ8«€ëÔç1J$cda602e1-bbc3-4844-874f-5c145997c597
+~	java:S125"<This block of commented-out lines of code should be removed.(¾ĞÀÔ8¬€ëÔç1J$15ae83a5-4a08-4d26-8ab3-b98fd1d5f24f
+m	java:S106%"+Replace this use of System.out by a logger.(¼Ô­Ä8¹€ëÔç1J$9b47b354-653e-4bf3-aca6-d265a7e6bb9a
+~	java:S125)"<This block of commented-out lines of code should be removed.(›â»¦8¿€ëÔç1J$3f502736-417c-4cbc-9c7a-4eae265cdb88
+r	java:S106E"+Replace this use of System.out by a logger.(Äçì©úÿÿÿÿ8Ñ€ëÔç1J$afd903b2-cd55-440e-b52a-4e72eebffa45
+r	java:S106F"+Replace this use of System.out by a logger.(Ğâ‡ûúÿÿÿÿ8Ò€ëÔç1J$9d15efde-9dd5-4631-9290-ca59e7b874da
+t
+java:S1481G",Remove this unused "result2" local variable.(ô÷…ÿÿÿÿÿ8Û€ëÔç1J$288fa539-dbc2-44fa-abf5-5c5dd6e3db1f
+~	java:S125N"<This block of commented-out lines of code should be removed.(‡„ıä8Ş€ëÔç1J$36167b2b-9ef5-4a72-9435-8c638f8b4372
+r	java:S106U"+Replace this use of System.out by a logger.(Ï”Òëøÿÿÿÿ8»ÜíÔç1J$affc2339-82c5-435f-9885-060f90e443ce
+ƒ	java:S125V"<This block of commented-out lines of code should be removed.(éÄÃíûÿÿÿÿ8ä€ëÔç1J$0c2aaa5c-4cdf-4e8f-9639-c0b0492a5aab
+{
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8ç€ëÔç1J$ad0b927a-96e2-4442-84ca-28bdfd86a125

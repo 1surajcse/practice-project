@@ -1,0 +1,62 @@
+
+f	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¡³æ
+g	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ý½¿Ä
+1
+java:S1643J"Use a StringBuilder instead.(»ëéq
+R
+java:S4973Y"<Strings and Boxed types should be compared using "equals()".( ™
+_
+java:S3655©"HCall "smap.isPresent()" or "!smap.isEmpty()" before accessing the value.(ê©¢ç
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Çµí‘
+N
+java:S1854S"8Remove this useless assignment to local variable "arr1".(¶˜žŠ
+M
+java:S1854`"7Remove this useless assignment to local variable "sb1".(Í‡šø
+E	java:S106"+Replace this use of System.out by a logger.(›òŒØøÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ë°—Æÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Àš¸
+E	java:S106"+Replace this use of System.out by a logger.(—˜ê€üÿÿÿÿ
+@
+java:S1197""*Move the array designators [] to the type.(ˆ€Ñø
+V	java:S125!"<This block of commented-out lines of code should be removed.(ûÈ§¤ýÿÿÿÿ
+E	java:S106#"+Replace this use of System.out by a logger.(Ç¿Ÿæùÿÿÿÿ
+@	java:S106%"+Replace this use of System.out by a logger.(µÊ¶€
+E	java:S106("+Replace this use of System.out by a logger.(å€ä¼þÿÿÿÿ
+@	java:S106/"+Replace this use of System.out by a logger.(•î¹
+@	java:S1061"+Replace this use of System.out by a logger.(þìäù
+E	java:S1066"+Replace this use of System.out by a logger.(å€ä¼þÿÿÿÿ
+E	java:S106:"+Replace this use of System.out by a logger.(®ýáëûÿÿÿÿ
+P	java:S1258"<This block of commented-out lines of code should be removed.(´±
+?	java:S106A"+Replace this use of System.out by a logger.(øŒ
+?	java:S106C"+Replace this use of System.out by a logger.(øŒ
+@	java:S106P"+Replace this use of System.out by a logger.(áÌÌâ
+E	java:S106R"+Replace this use of System.out by a logger.(Å­ËÝúÿÿÿÿ
+@
+java:S1197S"*Move the array designators [] to the type.(¶˜žŠ
+?
+java:S1481S")Remove this unused "arr1" local variable.(¶˜žŠ
+E	java:S106T"+Replace this use of System.out by a logger.(â“¼²ûÿÿÿÿ
+E	java:S106_"+Replace this use of System.out by a logger.(š¾¥Úÿÿÿÿÿ
+>
+java:S1481`"(Remove this unused "sb1" local variable.(Í‡šø
+@	java:S106a"+Replace this use of System.out by a logger.(ï˜©â
+V	java:S125c"<This block of commented-out lines of code should be removed.(¡–ÛÐùÿÿÿÿ
+Q	java:S125r"<This block of commented-out lines of code should be removed.(ÀË˜š
+Q	java:S125t"<This block of commented-out lines of code should be removed.(õ™Ùú
+V	java:S125w"<This block of commented-out lines of code should be removed.(ó Ðêûÿÿÿÿ
+V	java:S125z"<This block of commented-out lines of code should be removed.(ÎË¯æüÿÿÿÿ
+R	java:S125ƒ"<This block of commented-out lines of code should be removed.(î“û¶
+F	java:S106Œ"+Replace this use of System.out by a logger.(‘”™Ùúÿÿÿÿ
+@	java:S106§"+Replace this use of System.out by a logger.(¥Û¾3
+A	java:S106©"+Replace this use of System.out by a logger.(ê©¢ç
+X	java:S125±"<This block of commented-out lines of code should be removed.(Ð½»r8žË¿–å1
+H	java:S106µ"+Replace this use of System.out by a logger.(”÷‘Ö8ÌÉ¼–å1
+I
+java:S1128",Remove this unused import 'java.time.Clock'.(ÕýÓÙ8žË¿–å1
+F
+java:S1144‚"0Remove this unused private "rotateArray" method.(‹–r
+Q
+java:S1144š"5Remove this unused private "removeDuplicates" method.(†áèêþÿÿÿÿ
+L
+java:S1144¤"0Remove this unused private "getMajority" method.(Ž¶¨Œúÿÿÿÿ

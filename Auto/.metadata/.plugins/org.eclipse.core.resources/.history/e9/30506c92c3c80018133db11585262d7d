@@ -1,0 +1,48 @@
+package com.multiThreading;
+/*The problem with threads not seeing the latest value of a variable because it has not yet been written back to 
+ * main memory by another thread, is called a "visibility" problem.The updates of one thread are not visible to other 
+ * threads.
+ * 
+ * 
+ * 
+ * The Java volatile Visibility Guarantee::
+   The Java volatile keyword is intended to address variable visibility problems. By declaring the counter variable 
+   volatile all writes to the counter variable will be written back to main memory immediately. Also, all reads of the
+   counter variable will be read directly from main memory.
+
+   Here is how the volatile declaration of the counter variable looks:
+
+public class SharedObject {
+
+    public volatile int counter = 0;
+
+}
+ * As I have mentioned earlier, if two threads are both reading and writing to a shared variable, then using the volatile 
+ * keyword for that is not enough. You need to use a synchronized in that case to guarantee that the reading and 
+ * writing of the variable is atomic. Reading or writing a volatile variable does not block threads reading or writing.
+ *  For this to happen you must use the synchronized keyword around critical sections.
+ * 
+ * 
+ *  the volatile keyword in Java is used as an indicator to Java compiler and Thread that do not cache value of 
+ *  this variable and always read it from main memory. 
+
+
+ * */
+public  class VolatileKeyword {
+	  private int years;
+	    private  int months;
+	    public VolatileKeyword(int years, int months, int days) {
+			super();
+			this.years = years;
+			this.months = months;
+			this.days = days;
+		}
+
+		private volatile int days;
+	    
+	public static void main(String[] args) {
+		
+
+	}
+
+}

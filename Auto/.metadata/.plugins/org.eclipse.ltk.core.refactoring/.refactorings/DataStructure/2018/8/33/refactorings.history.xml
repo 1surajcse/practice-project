@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.Tree.LevalOrderTraversal.java&apos; to &apos;BinaryTree.java&apos;&#x0D;&#x0A;- Original project: &apos;DataStructure&apos;&#x0D;&#x0A;- Original element: &apos;com.Tree.LevalOrderTraversal.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Tree.BinaryTree.java&apos;" description="Rename compilation unit &apos;LevalOrderTraversal.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.Tree{LevalOrderTraversal.java" name="BinaryTree.java" references="false" stamp="1534089033609" version="1.0"/>
+</session>

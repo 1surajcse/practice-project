@@ -1,0 +1,13 @@
+127.0.0.1 - - [14/Dec/2017:11:46:08 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:11:46:09 +0530] "GET /SimpleLogin/MetaField.jsp HTTP/1.1" 200 6745
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:11:46:09 +0530] "GET /SimpleLogin/js/index.js HTTP/1.1" 404 1040
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:11:46:33 +0530] "POST /SimpleLogin/Metafieldcheck HTTP/1.1" 500 3415
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:11:47:16 +0530] "GET /SimpleLogin/MetaField.jsp HTTP/1.1" 200 6745
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:11:47:16 +0530] "GET /SimpleLogin/js/index.js HTTP/1.1" 404 1040
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:11:47:24 +0530] "POST /SimpleLogin/Metafieldcheck HTTP/1.1" 500 3414
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:13:12:02 +0530] "GET /SimpleLogin/MetaField.jsp HTTP/1.1" 200 6745
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:13:12:02 +0530] "GET /SimpleLogin/js/index.js HTTP/1.1" 404 1040
+127.0.0.1 - - [14/Dec/2017:15:59:01 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:15:59:02 +0530] "GET /SimpleLogin/LoginPage.jsp HTTP/1.1" 200 6737
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:15:59:03 +0530] "GET /SimpleLogin/js/index.js HTTP/1.1" 404 1040
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:15:59:08 +0530] "POST /SimpleLogin/LoginCheck HTTP/1.1" 200 802

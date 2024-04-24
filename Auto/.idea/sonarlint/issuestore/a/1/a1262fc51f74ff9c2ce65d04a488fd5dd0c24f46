@@ -1,0 +1,10 @@
+
+0
+java:S1220""Move this file to a named package.
+S
+java:S1610
+"=Convert the abstract class "AbstractClass" into an interface.(ък›Ў
+[
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.(ък›Ў
+N	java:S106"9Replace this use of System.out or System.err by a logger.(П»Да

@@ -1,0 +1,12 @@
+package com.multiThreading;
+/*The problem with threads not seeing the latest value of a variable because it has not yet been written back to 
+ * main memory by another thread, is called a "visibility" problem.The updates of one thread are not visible to other 
+ * threads.*/
+public class VolatileKeyword {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

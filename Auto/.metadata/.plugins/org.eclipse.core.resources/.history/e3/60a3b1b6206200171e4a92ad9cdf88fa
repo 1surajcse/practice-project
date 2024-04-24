@@ -1,0 +1,64 @@
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+
+public class Local {
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver", "D:/Auto/InternalBugAutomation/Register/chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+	 driver.get("https://connect.axa.fr/?ReturnUrl=%2Foauth%2Fauthorize%3Fclient_id%3D024ef7ad-4d2d-42e6-b341-be2a9172ab95%26scope%3Dhttps%3A%2F%2Fconnect.axa.fr%2FindividualOrProfessional.all%252Bhttps%3A%2F%2Fconnect.axa.fr%2FcollectiveHealth.all%252Bhttps%3A%2F%2Fconnect.axa.fr%2Fbank.all%26state%3D080c4858-8605-4537-b08e-aab00f3b3237%253Bhttps%253A%252F%252Fespaceclient.axa.fr%252Fredirection.html%26response_type%3Dcode%26redirect_uri%3Dhttps%3A%2F%2Fespaceclient.axa.fr%2Fredirection.html#/ ");
+
+	 Thread.sleep(2000);
+	// driver.manage().window().maximize();
+	driver.switchTo().defaultContent();
+     // driver.findElement(By.id("inputLogin")).click();
+     // driver.switchTo().frame(driver.findElement(By.id("IframeresetId")));
+     // String winHandleBefore = driver.getWindowHandle();
+
+   // Perform the click operation that opens new window
+
+   // Switch to new window opened
+/*   for(String winHandle : driver.getWindowHandles()){
+       driver.switchTo().window(winHandle);
+   }
+
+   driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);*/
+   // Perform the actions on new window
+
+   // Close the new window, if that window no more required
+  // driver.close();
+ 	 System.out.println("switch frame");
+     driver.findElement(By.id("inputLogin")).sendKeys("1234455");
+     Thread.sleep(1000);
+     ((JavascriptExecutor)driver).executeScript("document.getElementById('inputPassword').removeAttribute('readonly');"); 
+ 
+        // ((JavascriptExecutor)driver).executeScript("document.getElementById('form_fakePassword').type = 'password'");  
+
+   driver.findElement(By.id("inputPassword")).sendKeys("1234567");	
+  // driver.findElement(By.id("inputPassword")).click();
+     // driver.findElement(By.id("birthDateMonth")).sendKeys("01");
+      //driver.findElement(By.id("birthDateYear")).sendKeys("1994");
+   Thread.sleep(1000);
+   ((JavascriptExecutor)driver).executeScript("document.querySelector('#header > div.container.container--middle > div > div:nth-child(2) > div > div.row > div > form > button').click();"); 
+    // driver.findElement(By.linkText("Me connecter")).click();
+    
+     Thread.sleep(2000);
+ // String accname="65+ Guaranteed Growth Bonds";
+  //System.out.println("2^^^printing ::::  "+driver.findElement(By.xpath("//a[text()='"+accname+"']")).getAttribute("href"));
+  
+	//int no_of_holdings=driver.findElements(By.xpath("//div[@class='data-table__cell data-table__cell--fixed__heading']")).size();
+	//System.out.println(no_of_holdings);
+  
+	}
+      
+      //
+	
+	
+	}

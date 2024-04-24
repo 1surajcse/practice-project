@@ -1,0 +1,16 @@
+class ChildClass 
+{
+	
+}
+
+
+public class ParentClassDemo extends ChildClass {
+	
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

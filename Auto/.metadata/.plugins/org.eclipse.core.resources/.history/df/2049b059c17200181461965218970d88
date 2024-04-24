@@ -1,0 +1,25 @@
+class ChildClass extends ParentClassDemo
+{
+	
+	public void getData()
+	{
+	System.out.println("me Child");	
+	}
+}
+
+
+public class ParentClassDemo {
+	
+	protected void getData()
+	{
+		System.out.println("Me Parent");
+	}
+	
+
+	public static void main(String[] args) {
+		
+  ParentClassDemo ch=new ChildClass();
+  ch.getData();
+	}
+
+}

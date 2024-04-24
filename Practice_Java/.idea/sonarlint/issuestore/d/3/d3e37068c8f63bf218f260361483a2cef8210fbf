@@ -1,0 +1,45 @@
+
+]
+java:S11925"GDefine a constant instead of duplicating this literal "flower" 4 times.(›†½Ò
+S
+java:S1854"8Remove this useless assignment to local variable "diff".(÷’²äúÿÿÿÿ
+O
+java:S18548":Remove this useless assignment to local variable "length".(Ï£©A
+M
+java:S18543"7Remove this useless assignment to local variable "max".(‘Ðæ…
+B
+java:S1197",Move the array designators [][] to the type.(„ª÷³
+D
+java:S1481")Remove this unused "diff" local variable.(÷’²äúÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(ýÜã“
+D
+java:S1481")Remove this unused "cNeg" local variable.(Õ‚”ˆþÿÿÿÿ
+@
+java:S1481"*Remove this unused "cZero" local variable.(™§Ù¢
+E	java:S106)"+Replace this use of System.out by a logger.(Ðþ­Ñùÿÿÿÿ
+@	java:S106+"+Replace this use of System.out by a logger.(ŠÇÖí
+E
+java:S1197."*Move the array designators [] to the type.(ƒùçÂýÿÿÿÿ
+m
+java:S62040"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÔÅ™ûÿÿÿÿ
+E	java:S1061"+Replace this use of System.out by a logger.(ã¿¢Ôùÿÿÿÿ
+>
+java:S14813"(Remove this unused "max" local variable.(‘Ðæ…
+@	java:S1064"+Replace this use of System.out by a logger.(Å¶áç
+V	java:S1256"<This block of commented-out lines of code should be removed.(ëÃŒÅüÿÿÿÿ
+@
+java:S14818"+Remove this unused "length" local variable.(Ï£©A
+E	java:S106<"+Replace this use of System.out by a logger.(€ßóÏÿÿÿÿÿ
+E	java:S106>"+Replace this use of System.out by a logger.(‰œ¼ãþÿÿÿÿ
+@	java:S106F"+Replace this use of System.out by a logger.(ç¬û‘
+V	java:S125V"<This block of commented-out lines of code should be removed.(âûÌéþÿÿÿÿ
+H
+java:S1197„",Move the array designators [][] to the type.(‚ËúŒÿÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(®ôÈ‡þÿÿÿÿ
+A	java:S106“"+Replace this use of System.out by a logger.(ŸË±
+A	java:S106š"+Replace this use of System.out by a logger.(ž‚µº
+J
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ
+H
+java:S1128	"2Remove this unused import 'java.util.OptionalInt'.(š”üÏ

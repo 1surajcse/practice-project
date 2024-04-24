@@ -1,0 +1,8 @@
+
+”
+java:S1104"QMake count a static final constant or non-public and provide accessors if needed.(ëª™Š8ƒÄùİğ1J$8349482e-f791-40a6-b0dd-c8bc10579a66
+n
+java:S1444"+Make this "public static count" field final(ëª™Š8„Äùİğ1J$24fd72c0-5acd-4edd-a98d-ed4943a7aa32
+á
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(İÃ¤ÿøÿÿÿÿ8ŠÄùİğ1J$27c78275-f820-40f6-bbe4-ff2c7c65f782
+m	java:S106"+Replace this use of System.out by a logger.(‹Õ¸Ç8Äùİğ1J$79674b08-9b95-4fbd-a699-6f673e4dfbeb

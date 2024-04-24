@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.metadata.iml" filepath="$PROJECT_DIR$/.metadata/.metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoInternalBugV1/AutoInternalBugV1.iml" filepath="$PROJECT_DIR$/AutoInternalBugV1/AutoInternalBugV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoInternalBugV4/AutoInternalBugV4.iml" filepath="$PROJECT_DIR$/AutoInternalBugV4/AutoInternalBugV4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CMD_Test/CMD_Test.iml" filepath="$PROJECT_DIR$/CMD_Test/CMD_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DailyStats/DailyStats.iml" filepath="$PROJECT_DIR$/DailyStats/DailyStats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day1/Day1.iml" filepath="$PROJECT_DIR$/Day1/Day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InternalBug/InternalBug.iml" filepath="$PROJECT_DIR$/InternalBug/InternalBug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InternalBugAutomation/InternalBugAutomation.iml" filepath="$PROJECT_DIR$/InternalBugAutomation/InternalBugAutomation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scrolling/Scrolling.iml" filepath="$PROJECT_DIR$/Scrolling/Scrolling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleLogin/SimpleLogin.iml" filepath="$PROJECT_DIR$/SimpleLogin/SimpleLogin.iml" />
+    </modules>
+  </component>
+</project>

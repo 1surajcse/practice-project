@@ -1,0 +1,22 @@
+
+r
+java:S3740"/Provide the parametrized type for this generic.(àŞ¨8ËûÍ…ñ1J$93eee6a6-2217-4f9e-a5dc-65fabef6d416
+¶
+java:S1130"nRemove the declaration of thrown exception 'java.io.IOException' which is a subclass of 'java.lang.Exception'.(Ğ«šèşÿÿÿÿ8ıûÍ…ñ1J$3b7d59be-7ac2-43b1-b738-2a279d3978d5
+Ã
+java:S1130"{Remove the declaration of thrown exception 'java.lang.ClassNotFoundException' which is a subclass of 'java.lang.Exception'.(Ğ«šèşÿÿÿÿ8ıûÍ…ñ1J$ca2bbfff-0f19-4c13-86c7-c145b53cafb1
+m	java:S106"+Replace this use of System.out by a logger.( ¡8ÿûÍ…ñ1J$b7a43059-d9ae-49fd-81c3-d8e3de39060a
+o
+java:S3011",This accessibility update should be removed.(˜ÂÓ˜8üÍ…ñ1J$0cdf93f0-babb-4ec9-b6e5-b4c3d414b5af
+t
+java:S3011",This accessibility bypass should be removed.(öü´ûÿÿÿÿ8ƒüÍ…ñ1J$02e5d7b3-31fb-4c0d-bbff-dab8c8ba94ba
+m	java:S106"+Replace this use of System.out by a logger.(÷ƒëâ8ƒüÍ…ñ1J$84646909-4164-4955-bb3d-2ffa2b3ca257
+r	java:S106"+Replace this use of System.out by a logger.(ÒÿôÒşÿÿÿÿ8ƒüÍ…ñ1J$d7da4937-a6e0-46c4-b2d8-4629902608ad
+ƒ	java:S125#"<This block of commented-out lines of code should be removed.(˜¿¡·üÿÿÿÿ8…üÍ…ñ1J$68c2cb3c-9ab8-48a4-85ab-312403ed132f
+m	java:S106)"+Replace this use of System.out by a logger.(Ğ‘Ò·8†üÍ…ñ1J$e30e0292-5519-40da-9f86-4bca2df3a62f
+ƒ	java:S125("<This block of commented-out lines of code should be removed.(‰Ÿºúÿÿÿÿ8ƒ¸Ñ…ñ1J$b2e1309a-fd48-4637-b074-5b143832d008
+i
+java:S1128	"&Remove this unused import 'java.util'.(Î€ŒÙ8‡üÍ…ñ1J$48d294e2-c491-4592-a261-4a2a3a63c882
+€
+java:S1128
+"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8‡üÍ…ñ1J$b00b3557-1e2d-43ce-916b-bba3a69cbb71
