@@ -2,13 +2,11 @@ package com.exceptionHandling;
 
 import java.io.IOException;
 import java.sql.SQLDataException;
-
-import javax.security.sasl.SaslException;
 /***
  * 
  * @author stiwari
  *There is no problem in case of run time exception(Unchecked exception) for both child and parent
- *There is no problem if parent is throwing checked excpetion(compile time) exception and child does not
+ *There is no problem if parent is throwing checked exception(compile time) exception and child does not
  *there is a problem if child is throwing a checked exception(Compile) and its not handled in parent.
  *
  *

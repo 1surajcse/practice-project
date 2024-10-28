@@ -1,8 +1,8 @@
 package com.mobiquity.integeration.packer;
 
 import com.mobiquity.exception.APIException;
-import com.mobiquity.packer.Packer;
 import com.mobiquity.helper.DataHelper;
+import com.mobiquity.packer.Packer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

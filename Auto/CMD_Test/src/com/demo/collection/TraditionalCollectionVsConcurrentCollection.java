@@ -1,9 +1,7 @@
-package com.demo.collection;
+ package com.demo.collection;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
+ import java.util.Iterator;
+ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class TraditionalCollectionVsConcurrentCollection extends Thread {
 

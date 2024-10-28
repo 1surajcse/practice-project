@@ -1,4 +1,4 @@
-package com.AnonumousandInnerclass;
+package CMD_Test.src.com.AnonumousandInnerclass;
 /**
  * In Java, we can write a class within a method and this will be a local type. 
  * Like local variables, the scope of the inner class is restricted within the method.

@@ -1,0 +1,11 @@
+
+‡	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(§İÂ]8îüêŸ£2J$e56c0c44-7619-423a-876e-a510e42efc87
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(´Îèîùÿÿÿÿ8†Àß’2J$1475f355-85ec-41e7-96d9-509828e1e33c
+š
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ßèĞòúÿÿÿÿ8†Àß’2J$8710dda9-fcf6-48f6-a62e-45cb57306645
+w
+java:S1611"/Remove the parentheses around the "a" parameter(úÀêÿÿÿÿÿ8ùèŒ§2J$e2b8d555-6cd6-4291-ba2f-02bc334643cd
+y
+java:S1854C"6Remove this useless assignment to local variable "ab".(¦Õ8˜ùèŒ§2J$73e40b4e-5c81-4faf-8381-7c09c47560b1
+j
+java:S1481C"'Remove this unused "ab" local variable.(¦Õ8¡ùèŒ§2J$6b7c099f-b237-47b5-93e7-9049ab6f5402

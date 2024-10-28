@@ -1,7 +1,6 @@
 package com.exceptionHandling;
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.sql.SQLDataException;
 
 public class Child extends Parrent{

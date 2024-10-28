@@ -2,8 +2,8 @@ package com.mobiquity.integeration.service.fileparser;
 
 import com.mobiquity.domain.Package;
 import com.mobiquity.exception.FileParserException;
-import com.mobiquity.service.fileparser.Impl.TextFileParserService;
 import com.mobiquity.helper.DataHelper;
+import com.mobiquity.service.fileparser.Impl.TextFileParserService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

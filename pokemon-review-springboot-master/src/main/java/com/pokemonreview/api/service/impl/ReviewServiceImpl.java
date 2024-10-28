@@ -7,7 +7,6 @@ import com.pokemonreview.api.models.Pokemon;
 import com.pokemonreview.api.models.Review;
 import com.pokemonreview.api.repository.PokemonRepository;
 import com.pokemonreview.api.repository.ReviewRepository;
-import com.pokemonreview.api.service.PokemonService;
 import com.pokemonreview.api.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

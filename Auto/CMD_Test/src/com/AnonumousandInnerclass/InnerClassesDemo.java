@@ -1,4 +1,4 @@
-package com.AnonumousandInnerclass;
+package CMD_Test.src.com.AnonumousandInnerclass;
 /***
 
 Nested classes are divided into two types −

@@ -1,7 +1,5 @@
 package com.Tree;
 
-import java.util.LinkedList;
-
 class Node1{
     int data;
     Node1 left, right;

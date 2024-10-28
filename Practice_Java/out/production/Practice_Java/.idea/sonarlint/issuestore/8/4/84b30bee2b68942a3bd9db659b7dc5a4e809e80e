@@ -1,0 +1,11 @@
+
+ž
+java:S4276!"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ÿ¢ë…8¸¸¨òó1J$c3a6352e-0232-40f2-a78c-5d59111217a9
+w
+java:S1611$"/Remove the parentheses around the "s" parameter(à§ã–ýÿÿÿÿ8¿¸¨òó1J$004ebd99-f165-438f-9c3b-8d2076f4bc24
+ˆ
+java:S1612$"@Replace this lambda with method reference 'System.out::println'.(à§ã–ýÿÿÿÿ8À¸¨òó1J$13bc08cc-914b-4bd1-aaeb-c0f6cda3ac7e
+•
+java:S4276+"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ŒäîÝ8Á¸¨òó1J$0b5c38e1-c29e-4ac5-afcf-3796cbcfceeb
+k
+java:S1125+"(Remove the unnecessary boolean literals.(ŒäîÝ8¼†©òó1J$1637e81f-9a98-4111-b6d1-e79074d8f85b

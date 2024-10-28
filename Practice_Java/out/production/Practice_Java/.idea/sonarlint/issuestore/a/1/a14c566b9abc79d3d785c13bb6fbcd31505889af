@@ -1,0 +1,15 @@
+
+„
+java:S18548"<Remove this useless assignment to local variable "integers".(Üó§Õıÿÿÿÿ8û€ÆÇò1J$0f7d7b7d-92c0-4580-b281-c6b68ab3f8ee
+Š
+java:S1854"BRemove this useless assignment to local variable "javaOuterClass".(¶ÜØ©úÿÿÿÿ8û€ÆÇò1J$8ee44c65-ccd7-4afb-acb2-20b056ab6149
+¿
+java:S1130	"}Remove the declaration of thrown exception 'java.lang.CloneNotSupportedException', as it cannot be thrown from method's body.(ÂôP8Ÿ‚–úò1J$12cc671e-9a42-4280-97f4-bdf3a01f0b19
+~	java:S125"<This block of commented-out lines of code should be removed.(ß»Åº8öÔ•úò1J$91cd1119-e902-4f72-b492-977e6dbd19f7
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÚÁãşÿÿÿÿ8ª‚–úò1J$d9ce4896-351d-4189-964c-1925f776438f
+{
+java:S1481"3Remove this unused "javaOuterClass" local variable.(¶ÜØ©úÿÿÿÿ8ƒÆÇò1J$006270a0-f82d-4aaa-9b6d-3fd1a9304166
+ƒ	java:S125 "<This block of commented-out lines of code should be removed.(•­°óıÿÿÿÿ8„ÆÇò1J$84585325-f40a-4e7b-af44-f1c61f935987
+ƒ	java:S125""<This block of commented-out lines of code should be removed.(äış¥üÿÿÿÿ8„ÆÇò1J$85ef49bd-e0a0-4f1f-baea-a84ad5854dbd
+u
+java:S14818"-Remove this unused "integers" local variable.(Üó§Õıÿÿÿÿ8ˆÆÇò1J$68d05b30-243b-40db-8842-67c965f6a22c

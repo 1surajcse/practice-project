@@ -1,7 +1,5 @@
 package io.javabrains.reactiveworkshop;
 
-import reactor.core.publisher.Flux;
-
 import java.io.IOException;
 
 public class Exercise8 {

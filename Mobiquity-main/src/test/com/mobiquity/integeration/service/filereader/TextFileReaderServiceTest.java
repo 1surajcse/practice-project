@@ -1,8 +1,8 @@
 package com.mobiquity.integeration.service.filereader;
 
 import com.mobiquity.exception.APIException;
-import com.mobiquity.service.filereader.Impl.TextFileReaderService;
 import com.mobiquity.helper.DataHelper;
+import com.mobiquity.service.filereader.Impl.TextFileReaderService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

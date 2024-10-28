@@ -1,0 +1,25 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùù‰€üÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(ÔÚ–©
+m
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÔÎÄ­üÿÿÿÿ
+`
+java:S1764"ECorrect one of the identical sub-expressions on both sides of equals.(ÔÎÄ­üÿÿÿÿ
+Œ
+java:S2159"qUse "Arrays.equals(array1, array2)" or the "==" operator instead of using the "Object.equals(Object obj)" method.(ÔÎÄ­üÿÿÿÿ
+‡
+java:S2159"qUse "Arrays.equals(array1, array2)" or the "==" operator instead of using the "Object.equals(Object obj)" method.(ôº‘‘
+;
+java:S2129" Remove this "String" constructor(·¬·¶ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(»šªÇüÿÿÿÿ
+h
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+M
+java:S1611"2Remove the parentheses around the "item" parameter(›¤Ü«ÿÿÿÿÿ
+X
+java:S1612"=Replace this lambda with method reference 'Objects::nonNull'.(›¤Ü«ÿÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷Ž”

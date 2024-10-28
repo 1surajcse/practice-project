@@ -1,9 +1,10 @@
 package com.mobiquity.helper;
+
 import com.mobiquity.domain.Package;
 import com.mobiquity.domain.Product;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public final class Consts {
     public static final String EXAMPLE_FILE_PATH = "src/test/resources/example_input";

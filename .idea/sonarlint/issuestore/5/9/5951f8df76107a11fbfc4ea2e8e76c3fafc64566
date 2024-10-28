@@ -1,0 +1,20 @@
+
+•
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÃªÄ…J$e39d928a-6381-4cf0-96a4-ef849c7e477f
+‚
+java:S1192#"FDefine a constant instead of duplicating this literal "Suman" 4 times.(ü‘âäJ$ccc17581-b43d-4e4d-8437-5113b594fe07
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŽÊ•Ó8›õêüþ1
+—
+java:S1149&"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ýÚžåúÿÿÿÿJ$097ba0b2-cfdb-4334-9b9f-50ba9f092196
+…
+java:S4143%"DVerify this is the key that was intended; it was already set before.(æÑûÅúÿÿÿÿJ$ca557f81-14f9-4fef-abf4-2c437a2e60aa
+…
+java:S4143*"DVerify this is the key that was intended; it was already set before.(¦¦¥„þÿÿÿÿJ$8a8714d5-c6c3-441b-8b22-5155893eeb84
+s
+java:S1135	"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿJ$1c81c428-ae07-41c4-8b91-1f7d23eb3352
+w	java:S125"<This block of commented-out lines of code should be removed.(¨€€šJ$c97a87da-c9a4-4141-b38e-82e509582f60
+|	java:S125"<This block of commented-out lines of code should be removed.(éØ»ÚûÿÿÿÿJ$27a34b81-cfe9-4d68-988e-53de2a04e6df
+W
+java:S1116"Remove this empty statement.(¿œÄ	J$ce7e00a2-f966-4a54-a252-9f715afc022f
+w	java:S125-"<This block of commented-out lines of code should be removed.(ãôòÃJ$05c038f5-216a-43e8-a65e-53deac80bf81
+|	java:S125B"<This block of commented-out lines of code should be removed.(™ë„æýÿÿÿÿJ$22a66f51-c12c-40a1-8f91-a80a53ae9baf

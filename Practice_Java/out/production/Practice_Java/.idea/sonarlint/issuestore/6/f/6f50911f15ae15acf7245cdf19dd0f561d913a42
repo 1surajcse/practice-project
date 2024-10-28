@@ -1,0 +1,9 @@
+
+~
+java:S1854"6Remove this useless assignment to local variable "ls".(¼”úîþÿÿÿÿ8Œé®â”2J$6819531f-76c6-4b00-a616-da500ede7062
+m
+java:S1197"*Move the array designators [] to the type.(“Ç«ê8“é®â”2J$6b227ba2-ac40-407a-8ec4-543ce992a414
+š
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¼”úîþÿÿÿÿ8•é®â”2J$b529b422-85d0-4149-ad7a-b537b084d8c7
+o
+java:S1481"'Remove this unused "ls" local variable.(¼”úîþÿÿÿÿ8™é®â”2J$57a082aa-1862-44b8-8c8a-368b57ae87a8

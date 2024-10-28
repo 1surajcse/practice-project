@@ -1,15 +1,3 @@
-
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.sql.Driver;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -17,7 +5,13 @@ import org.jsoup.select.Elements;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.sun.org.apache.bcel.internal.generic.RETURN;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 
@@ -74,13 +68,13 @@ public class QADetails {
 		try
 		{
 			System.out.println("inside try");
-			Element orgname=doc.select("*:containsOwn(©)").get(0);
+			Element orgname=doc.select("*:containsOwn(ï¿½)").get(0);
 			//Element orgname1=doc.select("*:containsOwn(Copyright)").get(0);
 
 
 			orgName=orgname.text();
 			System.out.println("orgname::"+orgName);
-			if(orgName.equals("©"))
+			if(orgName.equals("ï¿½"))
 			{
 				orgname=orgname.parent();
 
@@ -95,7 +89,7 @@ public class QADetails {
 
 				orgName = orgName.replaceAll("-","").trim();
 			}
-			orgName=orgName.substring(orgName.indexOf("©")+1,orgName.length()).trim();
+			orgName=orgName.substring(orgName.indexOf("ï¿½")+1,orgName.length()).trim();
 
 			if(orgName.toLowerCase().contains("all rights reserved"))
 			{
@@ -189,9 +183,9 @@ public class QADetails {
 		{
 			displayName=displayName.substring(displayName.indexOf("welcome to")+1,displayName.length());
 		}
-		if(displayName.contains("–"))
+		if(displayName.contains("ï¿½"))
 		{
-			displayName=displayName.substring(0,displayName.indexOf("–"));
+			displayName=displayName.substring(0,displayName.indexOf("ï¿½"));
 		}
 		if(displayName.contains("-"))
 		{

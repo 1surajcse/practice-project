@@ -1,0 +1,11 @@
+
+’
+java:S2095"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(Ì½ıÅ8‰úÎ½’2J$b281c737-6cbb-4e0f-9ca0-adc3cdab2076
+‘
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(€½¤Ü8‰úÎ½’2J$076cf9d1-4e7d-441c-b1fe-6b10bd93dfd3
+
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ãí›ò8‰úÎ½’2J$79ec2ea1-f142-450a-903b-3915a7ea1d66
+˜
+java:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ğ™òŠûÿÿÿÿ8ˆúÎ½’2J$461761b9-500e-4422-9311-ec7e0246ea65
+º
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(‡Ğòû8•Ğ½’2J$adb01cac-9b2a-4214-bfd4-27b7f2245911

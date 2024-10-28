@@ -1,0 +1,12 @@
+
+©
+java:S14888"aImmediately return this expression instead of assigning it to the temporary variable "orderlist".(Âë˜Ûþÿÿÿÿ8»“âà’2J$a9abcbeb-8f5f-4fda-91cf-89d72b0e1306
+š
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ñ›ï€øÿÿÿÿ8ô¯Þà’2J$a84f596f-98bb-4600-89da-4e4d30f89996
+~	java:S125 "<This block of commented-out lines of code should be removed.(ìÚ²ö8÷¯Þà’2J$8375bcd1-4091-4e04-8a2d-f926c54d82f9
+š
+java:S6204+"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(°¬òÅüÿÿÿÿ8ø¯Þà’2J$21d66bf5-531c-4de9-ad68-c6af384deb52
+~	java:S125,"<This block of commented-out lines of code should be removed.(ÛÏ¹Å8ù¯Þà’2J$80c5c230-a19d-4d43-bbac-dc07016ac689
+~	java:S125/"<This block of commented-out lines of code should be removed.(ìÚ²ö8ù¯Þà’2J$1bfdb254-2eb4-4113-9a29-e332fd3b5263
+š
+java:S62048"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Âë˜Ûþÿÿÿÿ8‚ÿàà’2J$da862b63-eb59-481b-af35-456ec2ad6892

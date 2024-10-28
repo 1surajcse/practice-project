@@ -1,4 +1,4 @@
-package com.AnonumousandInnerclass;
+package CMD_Test.src.com.AnonumousandInnerclass;
 /**
  * 
  * Accessing the Private Members

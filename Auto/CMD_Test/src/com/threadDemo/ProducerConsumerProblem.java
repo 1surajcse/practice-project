@@ -1,6 +1,5 @@
 package com.threadDemo;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class ProducerConsumerProblem {

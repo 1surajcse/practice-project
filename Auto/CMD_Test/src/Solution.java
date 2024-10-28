@@ -1,7 +1,3 @@
-import java.io.BufferedReader;
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Solution {
 
     public static void main(String[] args) {

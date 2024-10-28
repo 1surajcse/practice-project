@@ -1,5 +1,3 @@
-import java.util.concurrent.SynchronousQueue;
-
 public class LinkedList {
 
 	Node head;

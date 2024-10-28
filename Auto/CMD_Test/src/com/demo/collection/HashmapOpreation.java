@@ -1,4 +1,4 @@
-package com.demo.collection;
+package CMD_Test.src.com.demo.collection;
 
 import java.util.HashMap;
 import java.util.Hashtable;

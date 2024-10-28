@@ -1,0 +1,14 @@
+
+V
+java:S1220""Move this file to a named package.J$a8a24448-e41c-4e88-bcd7-ac5515bde037
+|
+java:S1854P";Remove this useless assignment to local variable "result2".(ô÷…ÿÿÿÿÿJ$a22919b6-92be-449d-be62-5aa3d36e38f9
+|	java:S125"<This block of commented-out lines of code should be removed.(˜ú–ìşÿÿÿÿJ$058780ac-9c82-49e7-b56d-fd054cc47f23
+w	java:S125"<This block of commented-out lines of code should be removed.(æÔéğJ$19bd8d4a-2f69-4fc2-9f4b-1d0f340d9595
+w	java:S125"<This block of commented-out lines of code should be removed.(¾ĞÀÔJ$2ee14794-45ec-4be0-adda-63a7b823a880
+|	java:S125)"<This block of commented-out lines of code should be removed.(¢’É®úÿÿÿÿJ$8ccc7a74-e77e-4361-9f50-7349f8b77958
+w	java:S1252"<This block of commented-out lines of code should be removed.(›â»¦J$67c7b26a-9114-4a71-84ec-4aba5c41399c
+m
+java:S1481P",Remove this unused "result2" local variable.(ô÷…ÿÿÿÿÿJ$5c6730a5-df33-4bba-9652-5cf2c6913e03
+w	java:S125W"<This block of commented-out lines of code should be removed.(‡„ıäJ$303b98fb-68e1-4423-83ac-2a4a5767d932
+|	java:S125_"<This block of commented-out lines of code should be removed.(éÄÃíûÿÿÿÿJ$544457d9-a06b-435c-bcff-b11a9f11d690

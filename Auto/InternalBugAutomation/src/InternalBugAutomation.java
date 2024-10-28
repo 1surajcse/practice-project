@@ -1,22 +1,7 @@
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JButton;
-import javax.swing.JOptionPane;
-import javax.swing.JTextField;
-import javax.swing.JLabel;
-
-import java.awt.event.ActionListener;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.Color;
-import java.awt.Font;
-
-
-import javax.swing.SwingConstants;
-import javax.swing.JPasswordField;
-import javax.swing.JCheckBox;
-import java.awt.Toolkit;
-import javax.swing.JTextArea;
+import java.awt.event.ActionListener;
 
 
 public class InternalBugAutomation {

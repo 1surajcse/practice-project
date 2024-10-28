@@ -1,0 +1,34 @@
+
+r	java:S127z"XRefactor the code in order to not assign to this loop counter from within the loop body.(è¼ê”úÿÿÿÿ
+E
+java:S1066{"/Merge this if statement with the enclosing one.(ëÀ€¹
+2
+java:S1643b"Use a StringBuilder instead.(€Þ´ã
+2
+java:S1643m"Use a StringBuilder instead.(¾ËÀ–
+0
+java:S1220""Move this file to a named package.
+Y
+java:S3518"CMake sure this expression can't be zero before doing this division.(×Èß¯
+Q	java:S125
+"<This block of commented-out lines of code should be removed.(Þ€Î¼
+M
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+Q	java:S125)"<This block of commented-out lines of code should be removed.(¥›Š¢
+Q	java:S1251"<This block of commented-out lines of code should be removed.(Ð È”
+A
+java:S1905@"&Remove this unnecessary cast to "int".(¿´‰«ùÿÿÿÿ
+E
+java:S1197I"*Move the array designators [] to the type.(¦ë’ùÿÿÿÿ
+B
+java:S1905N"'Remove this unnecessary cast to "char".(íÂ“Œýÿÿÿÿ
+<
+java:S1905R"&Remove this unnecessary cast to "int".(ôÏÑÑ
+<
+java:S1905T"&Remove this unnecessary cast to "int".(¸ýœ³
+<
+java:S1905V"&Remove this unnecessary cast to "int".(îç§Ñ
+A
+java:S1905_"&Remove this unnecessary cast to "int".(…‡‚Üùÿÿÿÿ
+<
+java:S1905j"&Remove this unnecessary cast to "int".(Ïµ¤µ

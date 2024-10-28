@@ -1,7 +1,7 @@
 package com.mobiquity.integeration.knapscak;
 
-import com.mobiquity.knapscak.KnapSackQueue;
 import com.mobiquity.helper.DataHelper;
+import com.mobiquity.knapscak.KnapSackQueue;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

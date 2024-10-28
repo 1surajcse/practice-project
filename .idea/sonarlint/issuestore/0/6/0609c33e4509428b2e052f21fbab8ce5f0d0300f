@@ -1,0 +1,11 @@
+
+v
+java:S1141D"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$a8ec3b73-0190-4b5a-916f-b861402b9e40
+ˆ	java:S101)"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¦ÔŸçJ$ea6dcf4b-a03b-40ab-a89c-52e147c22005
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à­¹úÿÿÿÿJ$43318e94-2cd2-473d-8cf4-c0c05755b41c
+š
+java:S2142K"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$1c88ec80-fd44-44fa-b2e0-8a814c20729b
+s
+java:S1135G"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿJ$fead55a8-9640-411c-b21d-91a02d2eaa23
+s
+java:S1135L"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿJ$470956fb-c17d-4837-9c86-3ff18f7099da

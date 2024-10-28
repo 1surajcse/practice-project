@@ -1,0 +1,15 @@
+
+¡
+java:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨‘ç¹øÿÿÿÿ8Éù´Õ‹2J$9a472c6e-32d5-470d-b9ba-a0ea2f1c7779
+m
+java:S1197"*Move the array designators [] to the type.(íìÌã8ÿú´Õ‹2J$23c83fef-bb6b-4f39-8427-4b9c97327918
+l
+java:S1197"*Move the array designators [] to the type.(æø†	8û´Õ‹2J$ae297e13-8222-4602-9ee0-5cb0e1418cc6
+_
+java:S1116"Remove this empty statement.(ÊÊŠ‹8‡û´Õ‹2J$a50946f3-9bfd-4624-8d30-c451cc50dc9b
+ƒ	java:S1254"<This block of commented-out lines of code should be removed.(•òëğúÿÿÿÿ8Šû´Õ‹2J$dc10e52d-ee85-44d4-95bd-b7cc72dabef0
+~	java:S1256"<This block of commented-out lines of code should be removed.(–»‚8Šû´Õ‹2J$bb4f5329-d258-4ae1-8dbb-c6c25a540139
+{
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8ƒ¶Õ‹2J$4d699e69-cf62-4b01-85e2-dfeea03e974f
+€
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ƒ¶Õ‹2J$801d6385-f792-4c42-ace8-4dacf8cff220

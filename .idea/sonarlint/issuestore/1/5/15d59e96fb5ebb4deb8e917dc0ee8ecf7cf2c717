@@ -1,0 +1,14 @@
+
+‚
+java:S1192"FDefine a constant instead of duplicating this literal "Suman" 4 times.(ü‘âäJ$03a9c09f-e096-4c80-8b07-6d831754a3bf
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê•Ó8¨¤æüş1
+—
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ıÚåúÿÿÿÿJ$aa141a62-dbfe-46e3-b9f1-c6ea2ed92f4f
+…
+java:S4143"DVerify this is the key that was intended; it was already set before.(æÑûÅúÿÿÿÿJ$cd99671d-10b1-4916-bd77-c466daef3b0b
+€
+java:S4143"DVerify this is the key that was intended; it was already set before.(Ç¨ÂøJ$037cf4cd-a1ea-41cd-b45d-8e6980aab6bd
+…
+java:S4143"DVerify this is the key that was intended; it was already set before.(¦¦¥„şÿÿÿÿJ$e71f567a-8297-4302-bd2b-46acdfa4e9a0
+w	java:S125"<This block of commented-out lines of code should be removed.(ãôòÃJ$8231b792-babd-4bf5-a7e7-f7d0dba0813f
+|	java:S125/"<This block of commented-out lines of code should be removed.(™ë„æıÿÿÿÿJ$80e22b12-52ee-4ba9-83be-bf53fbf8f8ad

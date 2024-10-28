@@ -1,7 +1,4 @@
-package ArraysDemo;
-
-import java.util.HashMap;
-import java.util.Map;
+package CMD_Test.src.ArraysDemo;
 
 public class FrequencyOfNumber {
 

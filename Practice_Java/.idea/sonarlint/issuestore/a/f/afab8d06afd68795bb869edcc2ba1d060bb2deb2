@@ -1,0 +1,23 @@
+
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ö¯—Ëúÿÿÿÿ8å°”üù1J$37c95d18-0703-4d7e-9fbe-cf7fe365b72b
+r
+java:S1197"*Move the array designators [] to the type.(¾øŞÿÿÿÿÿ8…±”üù1J$606ca625-8cc9-4156-89e0-fce2eb070718
+x
+java:S6353"5Use concise quantifier syntax '?' instead of '{0,1}'.(€¯±“8£µ£ıú1J$6defc4ca-61c0-466e-ab2a-7f60ab84b01b
+ƒ	java:S125*"<This block of commented-out lines of code should be removed.(ö¯—Ëúÿÿÿÿ8ù¬·ú1J$9d035e60-7b3c-4bda-b919-05ecc396dbfd
+~	java:S125;"<This block of commented-out lines of code should be removed.(ù¥‡€8Š±”üù1J$74ae1a53-edb7-496a-a2fc-956e460c1952
+
+java:S1128"JRemove this unused import 'com.designpatterns.decorater.dress.BasicDress'.(Ğæ8ï––·ú1J$d6b9f5ac-52c3-4663-a2ab-a5543b35b7eb
+“
+java:S1128"KRemove this unused import 'com.designpatterns.decorater.dress.ModernDress'.(÷ğİµşÿÿÿÿ8ï––·ú1J$bc82e19b-6b57-4fab-acaf-f31a1d798fb1
+”
+java:S1128"QRemove this unused import 'com.designpatterns.decorater.dress.ProfessionalDress'.(®«ŞÄ8ï––·ú1J$a89ee40b-9371-44e5-bab8-ead5a5c220c6
+r
+java:S1128
+"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ï––·ú1J$9cea1ef1-7baa-4d94-a60f-afdaddaccee8
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ï––·ú1J$916bc03a-e2dd-432e-a0aa-ab2da6ec7ca5
+{
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8ï––·ú1J$a0e4be09-65b4-4a18-bfd6-5ec6c0655291
+€
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ï––·ú1J$cc582256-5d36-4e95-ae2a-1779e877fa0c

@@ -1,7 +1,7 @@
 package com.mobiquity.integeration.service.weightcalculator;
 
-import com.mobiquity.service.weightcalculator.WeightCalculationService;
 import com.mobiquity.helper.DataHelper;
+import com.mobiquity.service.weightcalculator.WeightCalculationService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

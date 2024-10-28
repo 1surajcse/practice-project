@@ -1,6 +1,5 @@
 package com.mobiquity.unit.domain;
 
-import com.mobiquity.domain.Package;
 import com.mobiquity.domain.PackageCalculation;
 import com.openpojo.reflection.PojoClass;
 import com.openpojo.reflection.impl.PojoClassFactory;

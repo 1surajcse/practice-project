@@ -1,0 +1,44 @@
+
+x
+java:S1066¶"/Merge this if statement with the enclosing one.(€ë’Ëûÿÿÿÿ8Ñæãı¡2J$e0b10932-6a16-44d1-8a9a-083ecc1b582c
+d
+java:S1643\"Use a StringBuilder instead.(üŒ££ıÿÿÿÿ8Ñæãı¡2J$99798b73-223f-4561-af8f-483976d6e777
+©
+java:S1488Ş"`Immediately return this expression instead of assigning it to the temporary variable "resultLs".(€©°ùÿÿÿÿ8Õæãı¡2J$41e69842-5a7e-4dde-b531-1d700b378785
+„
+java:S2184*"BCast one of the operands of this addition operation to a "double".(”ÙŒ28Öæãı¡2J$4e5b2b42-c447-4052-9eb9-84d19f4e694a
+
+java:S1226×"JIntroduce a new variable instead of reusing the parameter "stringBuilder".(±±•Û8Úæãı¡2J$8069a554-2559-4d1a-b9f5-0914cc64b7ac
+
+java:S1226Ø"JIntroduce a new variable instead of reusing the parameter "stringBuilder".(ØğÎ8Úæãı¡2J$887f9f19-cea7-4684-bcc2-c0992f967b0b
+“
+java:S1226Ù"JIntroduce a new variable instead of reusing the parameter "stringBuilder".(àúİşÿÿÿÿ8Úæãı¡2J$84786ccd-48e7-449f-b39e-7e43543e4dec
+~	java:S1250"<This block of commented-out lines of code should be removed.(¦ÎËÓ8—ëãı¡2J$3a0abd67-c8ee-444e-a63d-02cfc0bc20d5
+c
+java:S2129A" Remove this "String" constructor(È†üÔ8šëãı¡2J$e14fe1a1-d7ab-4601-82f5-743caaac3ab9
+ƒ	java:S125C"<This block of commented-out lines of code should be removed.(É—É§ÿÿÿÿÿ8šëãı¡2J$cef50579-380a-41c5-8ee9-0ffe80d502fd
+o
+java:S1197t",Move the array designators [][] to the type.(ºãÚ×8¡ëãı¡2J$4ed38efb-86bf-4db1-820f-ca6c0c4557ad
+o
+java:S1197u",Move the array designators [][] to the type.(ş”™»8¡ëãı¡2J$d1f45edc-b72f-4915-971a-7f854e5e978e
+o
+java:S1197v",Move the array designators [][] to the type.(úí…ò8¡ëãı¡2J$9c2fcc3f-a500-4f44-88a5-4b4a9af8ba32
+•
+java:S3776…"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(äÍZ8¤ëãı¡2J$be39b0e5-f4ee-4e7b-93e3-d583c23e37c3
+›
+java:S3776¬"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¤–‰ûÿÿÿÿ8©ëãı¡2J$1c8220cb-b001-416e-bee5-9e019fb2d85f
+…
+java:S1126Ğ"AReplace this if-then-else statement by a single return statement.(åúê8¬ëãı¡2J$7deabf77-1667-4500-88b3-cd466b3d76fc
+–	java:S100Ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹õÜæüÿÿÿÿ8°ëãı¡2J$633f063e-32c6-4b2c-9ae4-ae79278b29a9
+Š
+java:S1854Ù"ARemove this useless assignment to local variable "stringBuilder".(àúİşÿÿÿÿ8±ëãı¡2J$743b5aec-b129-4598-bc64-07c9e058a879
+…
+java:S1854Ø"ARemove this useless assignment to local variable "stringBuilder".(ØğÎ8±ëãı¡2J$cb095cd4-8df9-4b9e-bdaf-b5b11ba9a20f
+…
+java:S1854×"ARemove this useless assignment to local variable "stringBuilder".(±±•Û8±ëãı¡2J$f02efda4-e357-4d14-9507-304efa0fd1cb
+d
+java:S2129Ø" Remove this "String" constructor(ØğÎ8±ëãı¡2J$b97d0c03-3d9d-4c39-817b-86e2b8c242b3
+›
+java:S6204Ş"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(€©°ùÿÿÿÿ8±ëãı¡2J$31875223-4849-4273-af7a-4bd7307efce2
+|
+java:S1144Ö"3Remove this unused private "ModifyStBuider" method.(¹õÜæüÿÿÿÿ8¶ëãı¡2J$80539057-7b19-49a4-be7c-c979f6775e25

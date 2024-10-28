@@ -1,12 +1,14 @@
 package Scroll;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 /**
  * Example program to list links from a URL.
@@ -38,7 +40,7 @@ public class JsoupEx {
 		Element orgname=doc.select("p:contains(2017)").get(0);
 		orgName=orgname.text();
 		
-		orgName=orgName.substring(orgName.indexOf("©")+1,orgName.length());
+		orgName=orgName.substring(orgName.indexOf("ï¿½")+1,orgName.length());
 		
 		if(orgName.toLowerCase().contains("all rights reserved"))
 		{

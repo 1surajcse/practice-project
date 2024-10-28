@@ -1,0 +1,7 @@
+
+{
+java:S18546"8Remove this useless assignment to local variable "arr1".(³ßèÈ8ší¾®”2J$3bbe2920-45b5-4d58-98cc-aff53f050557
+•
+java:S6204)"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ù¦³®”2J$7f0ed3ae-87a3-4e37-ac08-4c617649aef4
+l
+java:S14816")Remove this unused "arr1" local variable.(³ßèÈ8¨í¾®”2J$2959bba8-a3c8-420c-a7d9-7761cec95bd8

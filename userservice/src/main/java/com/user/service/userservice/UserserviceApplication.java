@@ -1,6 +1,5 @@
 package com.user.service.userservice;
 
-import com.user.service.userservice.vo.TemplateVO;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;

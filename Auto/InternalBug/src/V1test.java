@@ -1,8 +1,4 @@
-
-
-import java.io.IOException;
-import java.util.ArrayList;
-
+import com.versionone.apiclient.exceptions.V1Exception;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -14,10 +10,9 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-//import org.apache.log4j.jmx.Agent;
 
-
-import com.versionone.apiclient.exceptions.V1Exception;
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class V1test {
 

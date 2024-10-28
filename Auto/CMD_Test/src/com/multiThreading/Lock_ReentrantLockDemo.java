@@ -1,12 +1,12 @@
 package com.multiThreading;
 
+import com.exceptionHandling.Parrent;
+
 import java.io.IOException;
 import java.sql.SQLDataException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-
-import com.exceptionHandling.Parrent;
 
 /*ReentrantLock: This is the most widely used implementation class of Lock interface. This class implements the Lock 
 interface in similar way as synchronized keyword. Apart from Lock interface implementation, ReentrantLock contains 
@@ -14,7 +14,7 @@ some utility methods to get the thread holding the lock, threads waiting to acqu
 
 *,  main difference between synchronized and ReentrantLock is ability to trying for lock interruptibly, and with timeout.
 
-*Thread doesn’t need to block infinitely, which was the case with synchronized.
+*Thread doesnï¿½t need to block infinitely, which was the case with synchronized.
 *
 *
 *

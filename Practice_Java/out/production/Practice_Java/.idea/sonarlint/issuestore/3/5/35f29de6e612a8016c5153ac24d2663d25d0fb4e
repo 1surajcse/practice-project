@@ -1,0 +1,21 @@
+
+x
+java:S3740"/Provide the parametrized type for this generic.(•¨ê´øÿÿÿÿ8çäî¢2J$bd7c3f25-004d-4e9f-a8da-137509372c3e
+˜
+java:S36552"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(àÂ˜•ÿÿÿÿÿ8ƒóâî¢2J$e94872f5-ddd5-4974-bb20-ad68c905a97d
+˜
+java:S3655-"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(§¢‚Çşÿÿÿÿ8ƒóâî¢2J$41786bd3-675d-45d2-9f6b-0eb0876ea99e
+˜
+java:S36557"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(°£Ğùÿÿÿÿ8ƒóâî¢2J$8c4b0103-3993-4ae2-a9ba-7803fe40a213
+“
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ÿí§¤8ƒóâî¢2J$57e47510-8579-4c4e-8c4c-f6f31d26b7f8
+“
+java:S3655;"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‰®®À8ƒóâî¢2J$f8101dfc-74bd-4ee6-817f-4e0d7aec8e1a
+š
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¶°é¾ÿÿÿÿÿ8‡óâî¢2J$79c98ee0-c954-439b-ad3b-dd5f14782958
+i
+java:S3864"!Remove this use of "Stream.peek".(ú…ÕŒüÿÿÿÿ8‹óâî¢2J$00e53d07-0aec-49a5-a49c-a850396631ad
+ˆ
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(ú…ÕŒüÿÿÿÿ8óâî¢2J$7cb9aee5-5374-49eb-9ccd-25da8f48bf19
+r
+java:S1197@"*Move the array designators [] to the type.(Ó¬á¦ûÿÿÿÿ8“óâî¢2J$bdf8be5c-4e64-45c1-8877-e382fc9a6ed8

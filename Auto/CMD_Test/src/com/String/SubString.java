@@ -1,5 +1,4 @@
 package com.String;
-import java.util.Scanner;
 
 public class SubString {
 

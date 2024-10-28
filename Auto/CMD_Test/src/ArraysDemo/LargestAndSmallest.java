@@ -1,4 +1,4 @@
-package ArraysDemo;
+package  CMD_Test.src.ArraysDemo;
 
 public class LargestAndSmallest {
 

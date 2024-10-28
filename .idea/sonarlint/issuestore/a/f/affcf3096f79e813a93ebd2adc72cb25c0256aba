@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óÄáò
+M
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ĞŠ½ªúÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Æ«€’ûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(âÜˆ—ıÿÿÿÿ
+:
+java:S1181%"%Catch Exception instead of Throwable.(ŠÜª)
+;
+java:S3457'"%String contains no format specifiers.(œ¤É
+V	java:S125."<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file:///production/practice-project" />
+    <output-test url="file:///test/practice-project" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/Auto" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Mobiquity-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practice_Java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sample" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-gateway" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/department-service" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/jasperDemo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pokemon-review-api-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pokemon-review-springboot-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/reactive-java-workshop-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/service-registry" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/userservice" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

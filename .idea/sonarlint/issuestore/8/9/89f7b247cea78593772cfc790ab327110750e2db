@@ -1,0 +1,19 @@
+
+x
+java:S1488©"\Immediately return this expression instead of assigning it to the temporary variable "data".(…¢Å©ÿÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(•ƒ±Ÿøÿÿÿÿ
+W
+java:S1075/"ARefactor your code to get this URI from a customizable parameter.(­ ª¹
+\	java:S8993"BDo something with the "boolean" value returned by "createNewFile".(ô©È¾ýÿÿÿÿ
+C	java:S108=")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ
+E
+java:S2093-"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+E
+java:S2093H"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+E
+java:S2093`"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+E
+java:S2093z"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+F
+java:S2093¦"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

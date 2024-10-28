@@ -1,4 +1,4 @@
-package ArraysDemo;
+package CMD_Test.src.ArraysDemo;
 
 import java.util.HashSet;
 import java.util.Set;

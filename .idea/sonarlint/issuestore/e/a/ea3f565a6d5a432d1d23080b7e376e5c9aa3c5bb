@@ -1,0 +1,15 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ©“ãÿÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¶†Ú
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô­ûôûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô­ûôûÿÿÿÿ
+f	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¶†Ú
+k	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÏìûúÿÿÿÿ
+f	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¶†Ú
+0
+java:S1220""Move this file to a named package.
+1
+java:S3626L"Remove this redundant jump.(ûÁÝ…
+V	java:S125d"<This block of commented-out lines of code should be removed.(ìÉÇÆþÿÿÿÿ
+V	java:S125p"<This block of commented-out lines of code should be removed.(Ë›º”ýÿÿÿÿ
+V	java:S125t"<This block of commented-out lines of code should be removed.(›×Ý¿ÿÿÿÿÿ

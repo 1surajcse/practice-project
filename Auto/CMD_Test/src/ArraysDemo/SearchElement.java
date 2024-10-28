@@ -1,7 +1,5 @@
 package ArraysDemo;
 
-import java.util.Arrays;
-
 public class SearchElement {
 
 	public static void main(String[] args) {
